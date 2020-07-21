@@ -1,47 +1,46 @@
 {
 	"Disabled": [
-		false,
-		"bool"
+			false,
+			"bool"
 	],
-	
 	"ShowFilesAndroidApp": [
-		true,
-		"bool"
+			true,
+			"bool"
 	],
 	"FilesAndroidAppLink": [
-		"https://play.google.com/store/apps/details?id=com.afterlogic.aurora.files",
-		"string"
+			"https:\/\/play.google.com\/store\/apps\/details?id=com.afterlogic.aurora.files",
+			"string"
 	],
 	"ShowFilesIosApp": [
-		true,
-		"bool"
+			true,
+			"bool"
 	],
 	"FilesIosAppLink": [
-		"https://itunes.apple.com/app/aurorafiles/id1030108751?mt=8",
-		"string"
+			"https:\/\/apps.apple.com\/us\/app\/aurorafiles\/id1030108751",
+			"string"
 	],
 	"ShowFilesWinApp": [
-		true,
-		"bool"
+			true,
+			"bool"
 	],
 	"FilesWinAppLink": [
-		"https://afterlogic.com/download/AuroraFileSync.msi",
-		"string"
+			"https:\/\/afterlogic.com\/download\/AuroraFileSync.msi",
+			"string"
 	],
 	"ShowMailAndroidApp": [
-		false,
-		"bool"
+			true,
+			"bool"
 	],
 	"MailAndroidAppLink": [
-		"https://play.google.com/store/apps/details?id=com.afterlogic.aurora.mail",
-		"string"
+			"https:\/\/play.google.com\/store\/apps\/details?id=com.afterlogic.aurora.mail",
+			"string"
 	],
 	"ShowMailIosApp": [
-		true,
-		"bool"
+			true,
+			"bool"
 	],
 	"MailIosAppLink": [
-		"",
-		"string"
+			"https:\/\/apps.apple.com\/us\/app\/aurora-mail\/id1494290317",
+			"string"
 	]
 }

@@ -2,8 +2,7 @@
 
 module.exports = function (oAppData) {
 	var App = require('%PathToCoreWebclientModule%/js/App.js');
-	
-	console.log('asdasd');
+
 	if (App.isUserNormalOrTenant())
 	{
 		var
@@ -30,6 +29,6 @@ module.exports = function (oAppData) {
 			}
 		};
 	}
-	
+
 	return null;
 };
