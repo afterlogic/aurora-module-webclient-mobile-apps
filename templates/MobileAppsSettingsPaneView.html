@@ -6,8 +6,8 @@
 	<div class="fields">
 		<div class="fieldset" data-bind="visible: bShowMailSection">
 			<h2 data-bind="i18n: {'key': '%MODULENAME%/HEADING_MAIL_APP'}"></h2>
-			<div class="hint" data-bind="i18n: {'key': '%MODULENAME%/SERVICES_FILES_ALL_APPSYNC_HINT_SPECIFY'}"></div>
-			<div class="fieldgroup">
+			<div class="hint" data-bind="i18n: {'key': '%MODULENAME%/SERVICES_FILES_ALL_APPSYNC_HINT_SPECIFY'}, visible: bShowMailServerUrlApp"></div>
+			<div class="fieldgroup" data-bind="visible: bShowMailServerUrlApp">
 				<div class="row">
 					<span class="label" data-bind="i18n: {'key': '%MODULENAME%/SERVICES_FILES_APPSYNC_SERVER'}"></span>
 					<span class="value" data-bind="text: sAppPath"></span>
@@ -23,6 +23,14 @@
 		</div>
 		<div class="fieldset" data-bind="visible: bShowFilesSection">
 			<h2 data-bind="i18n: {'key': '%MODULENAME%/HEADING_FILES_APP'}"></h2>
+			<div class="hint" data-bind="i18n: {'key': '%MODULENAME%/SERVICES_FILES_ALL_APPSYNC_HINT_SPECIFY'}, visible: bShowFilesServerUrlApp"></div>
+			<div class="fieldgroup" data-bind="visible: bShowFilesServerUrlApp">
+				<div class="row">
+					<span class="label" data-bind="i18n: {'key': '%MODULENAME%/SERVICES_FILES_APPSYNC_SERVER'}"></span>
+					<span class="value" data-bind="text: sAppPath"></span>
+				</div>
+			</div>
+			<div class="hint" data-bind="i18n: {'key': '%MODULENAME%/SERVICES_FILES_APPSYNC_HINT_CREDENTIALS'}"></div>
 			<a data-bind="visible: bShowFilesWinApp, attr: { 'href': sFilesWinAppLink }" target="_blank">
 				<img src="static/styles/images/modules/FilesWebclient/desktop-client.png" style="width: 197px;">
 			</a>

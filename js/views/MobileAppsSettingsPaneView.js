@@ -15,12 +15,14 @@ function CMobileAppsSettingsPaneView()
 {
 	this.sAppPath = UrlUtils.getAppPath();
 
+	this.bShowMailServerUrlApp = Settings.ShowMailServerUrlApp;
 	this.bShowMailIosApp = Settings.ShowMailIosApp && Settings.MailIosAppLink !== '';
 	this.sMailIosApp = Settings.MailIosAppLink;
 	this.bShowMailAndroidApp = Settings.ShowMailAndroidApp && Settings.MailAndroidAppLink !== '';
 	this.sMailAndroidApp = Settings.MailAndroidAppLink;
 	this.bShowMailSection = this.bShowMailIosApp || this.bShowMailAndroidApp;
 
+	this.bShowFilesServerUrlApp = Settings.ShowFilesServerUrlApp;
 	this.bShowFilesAndroidApp = Settings.ShowFilesAndroidApp && Settings.FilesAndroidAppLink !== '';
 	this.sFilesAndroidAppLink = Settings.FilesAndroidAppLink;
 	this.bShowFilesIosApp = Settings.ShowFilesIosApp && Settings.FilesIosAppLink !== '';
