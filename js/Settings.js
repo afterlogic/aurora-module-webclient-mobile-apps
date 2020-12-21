@@ -10,6 +10,7 @@ module.exports = {
 	ServerModuleName: 'MobileApps',
 	HashModuleName: 'mobile-apps',
 
+	FilesSectionName: '',
 	ShowFilesServerUrlApp: true,
 	ShowFilesAndroidApp: true,
 	FilesAndroidAppLink: '',
@@ -18,6 +19,7 @@ module.exports = {
 	ShowFilesWinApp: true,
 	FilesWinAppLink: '',
 
+	MailSectionName: '',
 	ShowMailServerUrlApp: true,
 	ShowMailAndroidApp: true,
 	MailAndroidAppLink: '',
@@ -34,6 +36,7 @@ module.exports = {
 		var oAppDataSection = oAppData['%ModuleName%'];
 		if (!_.isEmpty(oAppDataSection))
 		{
+			this.FilesSectionName = Types.pString(oAppDataSection.FilesSectionName, this.FilesSectionName);
 			this.ShowFilesServerUrlApp = Types.pBool(oAppDataSection.ShowFilesServerUrlApp, this.ShowFilesServerUrlApp);
 			this.ShowFilesAndroidApp = Types.pBool(oAppDataSection.ShowFilesAndroidApp, this.ShowFilesAndroidApp);
 			this.FilesAndroidAppLink = Types.pString(oAppDataSection.FilesAndroidAppLink, this.FilesAndroidAppLink);
@@ -42,6 +45,7 @@ module.exports = {
 			this.ShowFilesWinApp = Types.pBool(oAppDataSection.ShowFilesWinApp, this.ShowFilesWinApp);
 			this.FilesWinAppLink = Types.pString(oAppDataSection.FilesWinAppLink, this.FilesWinAppLink);
 
+			this.MailSectionName = Types.pString(oAppDataSection.MailSectionName, this.MailSectionName);
 			this.ShowMailServerUrlApp = Types.pBool(oAppDataSection.ShowMailServerUrlApp, this.ShowMailServerUrlApp);
 			this.ShowMailAndroidApp = Types.pBool(oAppDataSection.ShowMailAndroidApp, this.ShowMailAndroidApp);
 			this.MailAndroidAppLink = Types.pString(oAppDataSection.MailAndroidAppLink, this.MailAndroidAppLink);

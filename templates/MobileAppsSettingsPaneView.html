@@ -5,7 +5,7 @@
 <div class="panel_center">
 	<div class="fields">
 		<div class="fieldset" data-bind="visible: bShowMailSection">
-			<h2 data-bind="i18n: {'key': '%MODULENAME%/HEADING_MAIL_APP'}"></h2>
+			<h2 data-bind="text: sMailSectionName"></h2>
 			<div class="hint" data-bind="i18n: {'key': '%MODULENAME%/SERVICES_FILES_ALL_APPSYNC_HINT_SPECIFY'}, visible: bShowMailServerUrlApp"></div>
 			<div class="fieldgroup" data-bind="visible: bShowMailServerUrlApp">
 				<div class="row">
@@ -22,7 +22,7 @@
 			</a>
 		</div>
 		<div class="fieldset" data-bind="visible: bShowFilesSection">
-			<h2 data-bind="i18n: {'key': '%MODULENAME%/HEADING_FILES_APP'}"></h2>
+			<h2 data-bind="text: sFilesSectionName"></h2>
 			<div class="hint" data-bind="i18n: {'key': '%MODULENAME%/SERVICES_FILES_ALL_APPSYNC_HINT_SPECIFY'}, visible: bShowFilesServerUrlApp"></div>
 			<div class="fieldgroup" data-bind="visible: bShowFilesServerUrlApp">
 				<div class="row">

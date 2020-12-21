@@ -3,6 +3,10 @@
 		false,
 		"bool"
 	],
+	"FilesSectionName": [
+		"Aurora Files",
+		"string"
+	],
 	"ShowFilesAndroidApp": [
 		true,
 		"bool"
@@ -29,6 +33,10 @@
 	],
 	"FilesWinAppLink": [
 		"https:\/\/afterlogic.com\/download\/AuroraFileSync.msi",
+		"string"
+	],
+	"MailSectionName": [
+		"Aurora Mail",
 		"string"
 	],
 	"ShowMailServerUrlApp": [

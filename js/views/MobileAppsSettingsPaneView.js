@@ -1,6 +1,7 @@
 'use strict';
 
 var
+	TextUtils = require('%PathToCoreWebclientModule%/js/utils/Text.js'),
 	UrlUtils = require('%PathToCoreWebclientModule%/js/utils/Url.js'),
 
 	App = require('%PathToCoreWebclientModule%/js/App.js'),
@@ -15,6 +16,7 @@ function CMobileAppsSettingsPaneView()
 {
 	this.sAppPath = UrlUtils.getAppPath();
 
+	this.sMailSectionName = Settings.MailSectionName || TextUtils.i18n('%MODULENAME%/HEADING_MAIL_APP');
 	this.bShowMailServerUrlApp = Settings.ShowMailServerUrlApp;
 	this.bShowMailIosApp = Settings.ShowMailIosApp && Settings.MailIosAppLink !== '';
 	this.sMailIosApp = Settings.MailIosAppLink;
@@ -22,6 +24,7 @@ function CMobileAppsSettingsPaneView()
 	this.sMailAndroidApp = Settings.MailAndroidAppLink;
 	this.bShowMailSection = this.bShowMailIosApp || this.bShowMailAndroidApp;
 
+	this.sFilesSectionName = Settings.FilesSectionName || TextUtils.i18n('%MODULENAME%/HEADING_FILES_APP');
 	this.bShowFilesServerUrlApp = Settings.ShowFilesServerUrlApp;
 	this.bShowFilesAndroidApp = Settings.ShowFilesAndroidApp && Settings.FilesAndroidAppLink !== '';
 	this.sFilesAndroidAppLink = Settings.FilesAndroidAppLink;

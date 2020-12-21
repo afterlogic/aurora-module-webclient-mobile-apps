@@ -27,6 +27,7 @@ class Module extends \Aurora\System\Module\AbstractWebclientModule
 		\Aurora\System\Api::checkUserRoleIsAtLeast(\Aurora\System\Enums\UserRole::Anonymous);
 
 		return array(
+			'FilesSectionName' => $this->getConfig('FilesSectionName', ''),
 			'ShowFilesServerUrlApp' => $this->getConfig('ShowFilesServerUrlApp', false),
 			'ShowFilesAndroidApp' => $this->getConfig('ShowFilesAndroidApp', false),
 			'FilesAndroidAppLink' => $this->getConfig('FilesAndroidAppLink', ''),
@@ -34,6 +35,7 @@ class Module extends \Aurora\System\Module\AbstractWebclientModule
 			'FilesIosAppLink' => $this->getConfig('FilesIosAppLink', ''),
 			'ShowFilesWinApp' => $this->getConfig('ShowFilesWinApp', false),
 			'FilesWinAppLink' => $this->getConfig('FilesWinAppLink', ''),
+			'MailSectionName' => $this->getConfig('MailSectionName', ''),
 			'ShowMailServerUrlApp' => $this->getConfig('ShowMailServerUrlApp', false),
 			'ShowMailAndroidApp' => $this->getConfig('ShowMailAndroidApp', false),
 			'MailAndroidAppLink' => $this->getConfig('MailAndroidAppLink', ''),
