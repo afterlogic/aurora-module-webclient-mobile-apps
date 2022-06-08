@@ -1,122 +1,122 @@
 {
-  "Disabled": [
-    false,
-    "bool"
-  ],
-  "Disabled_Description": [
-    "",
-    "string"
-  ],
-  "FilesSectionName": [
-    "Aurora Files",
-    "string"
-  ],
-  "FilesSectionName_Description": [
-    "",
-    "string"
-  ],
-  "ShowFilesAndroidApp": [
-    true,
-    "bool"
-  ],
-  "ShowFilesAndroidApp_Description": [
-    "",
-    "string"
-  ],
-  "ShowFilesServerUrlApp": [
-    true,
-    "bool"
-  ],
-  "ShowFilesServerUrlApp_Description": [
-    "",
-    "string"
-  ],
-  "FilesAndroidAppLink": [
-    "https://play.google.com/store/apps/details?id=com.afterlogic.aurora.files",
-    "string"
-  ],
-  "FilesAndroidAppLink_Description": [
-    "",
-    "string"
-  ],
-  "ShowFilesIosApp": [
-    true,
-    "bool"
-  ],
-  "ShowFilesIosApp_Description": [
-    "",
-    "string"
-  ],
-  "FilesIosAppLink": [
-    "https://apps.apple.com/us/app/aurorafiles/id1030108751",
-    "string"
-  ],
-  "FilesIosAppLink_Description": [
-    "",
-    "string"
-  ],
-  "ShowFilesWinApp": [
-    true,
-    "bool"
-  ],
-  "ShowFilesWinApp_Description": [
-    "",
-    "string"
-  ],
-  "FilesWinAppLink": [
-    "https://afterlogic.com/download/AuroraFileSync.msi",
-    "string"
-  ],
-  "FilesWinAppLink_Description": [
-    "",
-    "string"
-  ],
-  "MailSectionName": [
-    "Aurora Mail",
-    "string"
-  ],
-  "MailSectionName_Description": [
-    "",
-    "string"
-  ],
-  "ShowMailServerUrlApp": [
-    true,
-    "bool"
-  ],
-  "ShowMailServerUrlApp_Description": [
-    "",
-    "string"
-  ],
-  "ShowMailAndroidApp": [
-    true,
-    "bool"
-  ],
-  "ShowMailAndroidApp_Description": [
-    "",
-    "string"
-  ],
-  "MailAndroidAppLink": [
-    "https://play.google.com/store/apps/details?id=com.afterlogic.aurora.mail",
-    "string"
-  ],
-  "MailAndroidAppLink_Description": [
-    "",
-    "string"
-  ],
-  "ShowMailIosApp": [
-    true,
-    "bool"
-  ],
-  "ShowMailIosApp_Description": [
-    "",
-    "string"
-  ],
-  "MailIosAppLink": [
-    "https://apps.apple.com/us/app/aurora-mail/id1494290317",
-    "string"
-  ],
-  "MailIosAppLink_Description": [
-    "",
-    "string"
-  ]
+	"Disabled": [
+		false,
+		"bool"
+	],
+	"Disabled_Description": [
+		"",
+		"string"
+	],
+	"FilesSectionName": [
+		"Aurora Files",
+		"string"
+	],
+	"FilesSectionName_Description": [
+		"",
+		"string"
+	],
+	"ShowFilesAndroidApp": [
+		true,
+		"bool"
+	],
+	"ShowFilesAndroidApp_Description": [
+		"",
+		"string"
+	],
+	"ShowFilesServerUrlApp": [
+		true,
+		"bool"
+	],
+	"ShowFilesServerUrlApp_Description": [
+		"",
+		"string"
+	],
+	"FilesAndroidAppLink": [
+		"https://play.google.com/store/apps/details?id=com.afterlogic.aurora.files",
+		"string"
+	],
+	"FilesAndroidAppLink_Description": [
+		"",
+		"string"
+	],
+	"ShowFilesIosApp": [
+		true,
+		"bool"
+	],
+	"ShowFilesIosApp_Description": [
+		"",
+		"string"
+	],
+	"FilesIosAppLink": [
+		"https://apps.apple.com/us/app/aurorafiles/id1030108751",
+		"string"
+	],
+	"FilesIosAppLink_Description": [
+		"",
+		"string"
+	],
+	"ShowFilesWinApp": [
+		true,
+		"bool"
+	],
+	"ShowFilesWinApp_Description": [
+		"",
+		"string"
+	],
+	"FilesWinAppLink": [
+		"https://afterlogic.com/download/AuroraFileSync.msi",
+		"string"
+	],
+	"FilesWinAppLink_Description": [
+		"",
+		"string"
+	],
+	"MailSectionName": [
+		"Aurora Mail",
+		"string"
+	],
+	"MailSectionName_Description": [
+		"",
+		"string"
+	],
+	"ShowMailServerUrlApp": [
+		true,
+		"bool"
+	],
+	"ShowMailServerUrlApp_Description": [
+		"",
+		"string"
+	],
+	"ShowMailAndroidApp": [
+		true,
+		"bool"
+	],
+	"ShowMailAndroidApp_Description": [
+		"",
+		"string"
+	],
+	"MailAndroidAppLink": [
+		"https://play.google.com/store/apps/details?id=com.afterlogic.aurora.mail",
+		"string"
+	],
+	"MailAndroidAppLink_Description": [
+		"",
+		"string"
+	],
+	"ShowMailIosApp": [
+		true,
+		"bool"
+	],
+	"ShowMailIosApp_Description": [
+		"",
+		"string"
+	],
+	"MailIosAppLink": [
+		"https://apps.apple.com/us/app/aurora-mail/id1494290317",
+		"string"
+	],
+	"MailIosAppLink_Description": [
+		"",
+		"string"
+	]
 }
