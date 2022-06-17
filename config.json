@@ -48,7 +48,7 @@
 		"string"
 	],
 	"FilesIosAppLink": [
-		"https://apps.apple.com/us/app/aurorafiles/id1030108751",
+		"https://apps.apple.com/us/app/aurorafiles/id1030108751?platform=iphone",
 		"string"
 	],
 	"FilesIosAppLink_Description": [
@@ -112,7 +112,7 @@
 		"string"
 	],
 	"MailIosAppLink": [
-		"https://apps.apple.com/us/app/aurora-mail/id1494290317",
+		"https://apps.apple.com/us/app/aurora-mail/id1494290317?platform=iphone",
 		"string"
 	],
 	"MailIosAppLink_Description": [
