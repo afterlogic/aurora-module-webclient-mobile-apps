@@ -4,7 +4,7 @@
 		"bool"
 	],
 	"Disabled_Description": [
-		"",
+		"Setting to true disables the module",
 		"string"
 	],
 	"FilesSectionName": [
@@ -12,7 +12,7 @@
 		"string"
 	],
 	"FilesSectionName_Description": [
-		"",
+		"Title of Files section in Mobile Apps tab of Settings screen",
 		"string"
 	],
 	"ShowFilesAndroidApp": [
@@ -20,7 +20,7 @@
 		"bool"
 	],
 	"ShowFilesAndroidApp_Description": [
-		"",
+		"If true, display a link to Aurora Files for Android",
 		"string"
 	],
 	"ShowFilesServerUrlApp": [
@@ -28,7 +28,7 @@
 		"bool"
 	],
 	"ShowFilesServerUrlApp_Description": [
-		"",
+		"If true, display URL which needs to be supplied in mobile apps to access files",
 		"string"
 	],
 	"FilesAndroidAppLink": [
@@ -36,7 +36,7 @@
 		"string"
 	],
 	"FilesAndroidAppLink_Description": [
-		"",
+		"URL of a link to Aurora Files for Android",
 		"string"
 	],
 	"ShowFilesIosApp": [
@@ -44,7 +44,7 @@
 		"bool"
 	],
 	"ShowFilesIosApp_Description": [
-		"",
+		"If true, display a link to Aurora Files for iOS",
 		"string"
 	],
 	"FilesIosAppLink": [
@@ -52,7 +52,7 @@
 		"string"
 	],
 	"FilesIosAppLink_Description": [
-		"",
+		"URL of a link to Aurora Files for iOS",
 		"string"
 	],
 	"ShowFilesWinApp": [
@@ -60,7 +60,7 @@
 		"bool"
 	],
 	"ShowFilesWinApp_Description": [
-		"",
+		"If true, link to Windows client for accessing files is shown",
 		"string"
 	],
 	"FilesWinAppLink": [
@@ -68,7 +68,7 @@
 		"string"
 	],
 	"FilesWinAppLink_Description": [
-		"",
+		"URL of a link to Windows client for accessing files",
 		"string"
 	],
 	"MailSectionName": [
@@ -76,7 +76,7 @@
 		"string"
 	],
 	"MailSectionName_Description": [
-		"",
+		"Title of Mail section in Mobile Apps tab of Settings screen",
 		"string"
 	],
 	"ShowMailServerUrlApp": [
@@ -84,7 +84,7 @@
 		"bool"
 	],
 	"ShowMailServerUrlApp_Description": [
-		"",
+		"If true, display the URL for accessing this product installation",
 		"string"
 	],
 	"ShowMailAndroidApp": [
@@ -92,7 +92,7 @@
 		"bool"
 	],
 	"ShowMailAndroidApp_Description": [
-		"",
+		"If true, display a link to Aurora Mail for Android",
 		"string"
 	],
 	"MailAndroidAppLink": [
@@ -100,7 +100,7 @@
 		"string"
 	],
 	"MailAndroidAppLink_Description": [
-		"",
+		"URL of a link to Aurora Mail for Android",
 		"string"
 	],
 	"ShowMailIosApp": [
@@ -108,7 +108,7 @@
 		"bool"
 	],
 	"ShowMailIosApp_Description": [
-		"",
+		"If true, display a link to Aurora Mail for iOS",
 		"string"
 	],
 	"MailIosAppLink": [
@@ -116,7 +116,7 @@
 		"string"
 	],
 	"MailIosAppLink_Description": [
-		"",
+		"URL of a link to Aurora Mail for iOS",
 		"string"
 	]
 }
