@@ -12,6 +12,8 @@ namespace Aurora\Modules\MobileAppsWebclient;
  * @license https://afterlogic.com/products/common-licensing Afterlogic Software License
  * @copyright Copyright (c) 2023, Afterlogic Corp.
  *
+ * @property Settings $oModuleSettings
+ *
  * @package Modules
  */
 class Module extends \Aurora\System\Module\AbstractWebclientModule
@@ -46,20 +48,20 @@ class Module extends \Aurora\System\Module\AbstractWebclientModule
         \Aurora\System\Api::checkUserRoleIsAtLeast(\Aurora\System\Enums\UserRole::Anonymous);
 
         return array(
-            'FilesSectionName' => $this->getConfig('FilesSectionName', ''),
-            'ShowFilesServerUrlApp' => $this->getConfig('ShowFilesServerUrlApp', false),
-            'ShowFilesAndroidApp' => $this->getConfig('ShowFilesAndroidApp', false),
-            'FilesAndroidAppLink' => $this->getConfig('FilesAndroidAppLink', ''),
-            'ShowFilesIosApp' => $this->getConfig('ShowFilesIosApp', false),
-            'FilesIosAppLink' => $this->getConfig('FilesIosAppLink', ''),
-            'ShowFilesWinApp' => $this->getConfig('ShowFilesWinApp', false),
-            'FilesWinAppLink' => $this->getConfig('FilesWinAppLink', ''),
-            'MailSectionName' => $this->getConfig('MailSectionName', ''),
-            'ShowMailServerUrlApp' => $this->getConfig('ShowMailServerUrlApp', false),
-            'ShowMailAndroidApp' => $this->getConfig('ShowMailAndroidApp', false),
-            'MailAndroidAppLink' => $this->getConfig('MailAndroidAppLink', ''),
-            'ShowMailIosApp' => $this->getConfig('ShowMailIosApp', false),
-            'MailIosAppLink' => $this->getConfig('MailIosAppLink', ''),
+            'FilesSectionName' => $this->oModuleSettings->FilesSectionName,
+            'ShowFilesServerUrlApp' => $this->oModuleSettings->ShowFilesServerUrlApp,
+            'ShowFilesAndroidApp' => $this->oModuleSettings->ShowFilesAndroidApp,
+            'FilesAndroidAppLink' => $this->oModuleSettings->FilesAndroidAppLink,
+            'ShowFilesIosApp' => $this->oModuleSettings->ShowFilesIosApp,
+            'FilesIosAppLink' => $this->oModuleSettings->FilesIosAppLink,
+            'ShowFilesWinApp' => $this->oModuleSettings->ShowFilesWinApp,
+            'FilesWinAppLink' => $this->oModuleSettings->FilesWinAppLink,
+            'MailSectionName' => $this->oModuleSettings->MailSectionName,
+            'ShowMailServerUrlApp' => $this->oModuleSettings->ShowMailServerUrlApp,
+            'ShowMailAndroidApp' => $this->oModuleSettings->ShowMailAndroidApp,
+            'MailAndroidAppLink' => $this->oModuleSettings->MailAndroidAppLink,
+            'ShowMailIosApp' => $this->oModuleSettings->ShowMailIosApp,
+            'MailIosAppLink' => $this->oModuleSettings->MailIosAppLink,
         );
     }
 }
