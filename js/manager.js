@@ -15,6 +15,11 @@ module.exports = function (oAppData) {
 
 		return {
 			start: function (ModulesManager) {
+				const meta = document.createElement('meta');
+				meta.name = 'apple-itunes-app';
+				meta.content = 'app-id=6744822926';
+				document.head.appendChild(meta);
+
 				ModulesManager.run(
 					'SettingsWebclient',
 					'registerSettingsTab',
